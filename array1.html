@@ -1,0 +1,28 @@
+<!-- array - definition initialization length -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Array</title>
+    <script>
+      var fruits = ["mango", "apple", "banana", "strawberry"];
+      for (var i = 0; i < fruits.length; i++) {
+        document.write(fruits[i] + "<br/>");
+      }
+
+      // creation of Array
+      var animals = new Array(3);
+      animals[0] = "Lion";
+      animals[1] = "Tiger";
+      animals[2] = "Wolves";
+
+      animals.forEach((animal) => {
+        document.write(animal + "<br/>");
+      });
+
+      animals.forEach(function (animal) {
+        document.write(animal + "<br/>");
+      });
+    </script>
+  </head>
+  <body></body>
+</html>
